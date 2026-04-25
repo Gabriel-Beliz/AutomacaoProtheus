@@ -98,7 +98,7 @@ class RoboProcedures():
             self.contexto = self.navegador.new_context(no_viewport=True)
             self.pagina = self.contexto.new_page()
 
-            self.pagina.goto(  # Insira a URL para acessar o Protheus)
+            self.pagina.goto(#Insira a URL para acessar o Protheus)
             self.pagina.get_by_role("group", name="Programa Inicial").get_by_role(
                 "textbox").fill("SIGACFG")
             self.pagina.get_by_role("button", name="Ok").click()
