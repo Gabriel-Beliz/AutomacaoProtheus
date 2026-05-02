@@ -69,7 +69,6 @@ A aplicação possui uma interface gráfica simples para entrada de credenciais 
   playwright install
 
 2. Execute o script:
-
   python main.py
 
 
