@@ -69,7 +69,7 @@ A aplicação possui uma interface gráfica simples para entrada de credenciais 
   playwright install
 
 2. Execute o script:
-  python main.py
+  python automacao_procedures.py
 
 
 2 - Opção 2: Executar via executável (.exe)
@@ -87,7 +87,7 @@ Caso você não queira depender de Python instalado na máquina, é possível ge
 2. Gere o executável:
 
 - No seu terminal:
-pyinstaller --onefile --noconsole main.py
+pyinstaller --onefile --noconsole automacao_procedures.py
 
 
 3. O arquivo será gerado em:
