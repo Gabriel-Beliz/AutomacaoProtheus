@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import font
 import os
-import subprocess
 
 
 class RoboProcedures():
